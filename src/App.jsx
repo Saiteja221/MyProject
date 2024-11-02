@@ -12,6 +12,7 @@ import { useSelector } from "react-redux";
 import { FaHome, FaLeaf, FaDrumstickBite, FaShoppingCart, FaInfoCircle, FaPhone, FaHistory } from 'react-icons/fa';
 import GoogleLoginComponent from "./GoogleLoginComponent";
 import { GoogleOAuthProvider } from "@react-oauth/google";
+import FacebookLoginComponent from "./FaceBookLoginComponent";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <GoogleOAuthProvider clientId="171133159806-f9uiuao402o99mqfulq3mq21tebgmvjc.apps.googleusercontent.com">
     <GoogleLoginComponent/>
     </GoogleOAuthProvider>
+    <FacebookLoginComponent/>
 
       <BrowserRouter>
         <nav>
