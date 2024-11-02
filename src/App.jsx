@@ -25,14 +25,14 @@ function App() {
 
       <BrowserRouter>
         <nav>
-        <Link to='/home'><FaHome /> Home</Link>
+        <Link to='/home'><FaHome /> HOME</Link>
       <Link to='/veg'><FaLeaf /> Veg-Items</Link>
       <Link to='/nonveg'><FaDrumstickBite /> NonVeg-Items</Link>
-      <Link to='/cart'><FaShoppingCart /> Cart ({totalItems})</Link>
+      <Link to='/cart'><FaShoppingCart /> CART ({totalItems})</Link>
       <Link to='/aboutus'><FaInfoCircle /> About Us</Link>
       <Link to='/contactus'><FaPhone /> Contact Us</Link>
       <Link to='/purchasehistory'><FaHistory /> Purchase History</Link>
-        </nav>
+        </nav> 
         
         <Routes>
           <Route path='/home' element={<Home />} />
